@@ -22,7 +22,7 @@ def convert_jpg_to_webp(input_dir):
         print(f"{jpg_file} --> {webp_file} dönüştürüldü.")
 
 # Kullanım örneği:
-user_input = r'C:\Users\celik\OneDrive\Masaüstü\İş Dosyaları\2 Kol 1 Nefes\Kaliteli Görsel'
+user_input = r'C:\users\Milenyum\Masaüstü\Dosya'
 input_directory = re.sub(r'\\{1,2}', '\\\\\\\\', user_input)
 
 convert_jpg_to_webp(input_directory)
